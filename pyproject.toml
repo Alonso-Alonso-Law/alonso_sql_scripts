@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "alonso-sql-scripts"
+version = "0.1.0"
+description = ""
+authors = ["CamiloHerreraDR"]
+readme = "README.md"
+packages = [{include = "alonso_sql_scripts"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+simple-salesforce = "^1.12.6"
+psycopg2-binary = "^2.9.10"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
